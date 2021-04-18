@@ -1,19 +1,13 @@
 package com.company;
 
-import org.w3c.dom.css.Counter;
-
-import java.util.stream.IntStream;
 
 public class Main {
-
 
     public static void main(String[] args) {
         System.out.print("Circle S is ");
         Circle circle = new Circle(12);
         circle.showS();
         System.out.println("");
-
-
 
         Car car = new Car("Lexus", 2.5f);
             car.startEngine();
@@ -25,14 +19,19 @@ public class Main {
 
         for (int i = 0; i < 5; i++) {
             new CounterClass();
-
         }
         System.out.println("quantity of objects is " + CounterClass.getCount());
 
         System.out.println("");
 
-
+    Fractions fractions = new Fractions(2, 4, 1, 2);
+        fractions.add();
+        fractions.sub();
+        fractions.mult();
+        fractions.div();
         }
+
+        System.out.println ("");
 
 
     }
