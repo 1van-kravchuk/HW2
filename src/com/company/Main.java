@@ -10,10 +10,10 @@ public class Main {
         System.out.println("");
 
         Car car = new Car("Lexus", 2.5f);
-            car.startEngine();
-            car.moove();
-            car.cruise();
-            car.stopEngine();
+        car.startEngine();
+        car.moove();
+        car.cruise();
+        car.stopEngine();
 
         System.out.println("");
 
@@ -24,18 +24,22 @@ public class Main {
 
         System.out.println("");
 
-    Fractions fractions = new Fractions(2, 4, 1, 2);
+        Fractions fractions = new Fractions(2, 4, 1, 2);
         fractions.add();
         fractions.sub();
         fractions.mult();
         fractions.div();
-        }
 
-        System.out.println ("");
+        System.out.println("");
 
-
+        Money money1 = new Money(57, 70);
+        Money money2 = new Money(25, 35);
+        Money money = money1.addUAH(money2);
+        System.out.println("addition of "+ money1 +" + "+ money2 +" = " + money);
+        Money money3 = money1.subUAH(money2);
+        System.out.println("subtraction of "+ money1 +" + "+ money2 +" = " + money3);
     }
-
+}
 
 
 

@@ -14,7 +14,6 @@ public class Fractions {
             this.denumerF = (short) denumerF;
             this.numerS = numerS;
             this.denumerS = (short) denumerS;
-
     }
         public void add(){
         long ansU = numerF*denumerS+numerS*denumerF;
